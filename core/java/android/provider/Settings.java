@@ -4572,6 +4572,18 @@ public final class Settings {
         public static final String STATUS_BAR_POWER_MENU = "status_bar_power_menu";
 
         /**
+         * Whether to only show actually running tasks
+         * @hide
+         */
+        public static final String RECENT_SHOW_RUNNING_TASKS = "show_running_tasks";
+
+        /**
+         * Amount of apps to show in recents
+         * @hide
+         */
+        public static final String RECENTS_MAX_APPS = "recents_max_apps";
+
+        /**
          * Whether recent panel gravity is left or right (default = Gravity.RIGHT).
          * @hide
          */
